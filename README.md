@@ -1,45 +1,49 @@
-Ant Colony Optimization – Parameter Sensitivity Study
+# 🐜 Ant Colony Optimization – Parameter Sensitivity Study
 
-This project explores the effects of parameter tuning in a standard Ant Colony Optimization (ACO) algorithm applied to the Traveling Salesman Problem (TSP).
+An experimental study on the effects of parameter tuning in a standard  
+Ant Colony Optimization (ACO) algorithm applied to the Traveling Salesman Problem (TSP).
 
+---
 
-Focus:
+## 📌 Overview
 
-Instead of modifying the algorithm structure, this study experimentally analyzes:
+Instead of modifying the algorithm structure or introducing hybrid models,  
+this project focuses purely on **parameter sensitivity analysis** and how it impacts:
 
-Exploration-heavy configurations
+- Solution quality
+- Convergence behavior
+- Exploration vs Exploitation balance
+- Computational performance
 
-Exploitation-heavy configurations
+---
 
-Balanced configurations
+## ⚙️ Parameter Configurations Tested
 
-Increased iteration strategies
+- 🔎 Exploration-heavy configurations  
+- 🎯 Exploitation-heavy configurations  
+- ⚖️ Balanced configurations  
+- 🔁 Increased iteration strategies  
 
+---
 
+## 📊 Datasets Used (TSPLIB)
 
-Datasets Used:
+- berlin52  
+- ch130  
+- kroA100  
 
-berlin52
+---
 
-ch130
+## 🧠 Key Findings
 
-kroA100
+- Exploitation-heavy parameters produced more stable average performance.
+- Increasing iterations does **not** guarantee better solutions.
+- Parameter tuning alone cannot eliminate early stagnation.
+- Exploration increases variability across runs.
 
+---
 
+## 📄 Paper
 
+The full research paper (JATI-formatted academic project) is available in this repository.
 
-
-Key Findings:
-
-Exploitation-heavy parameters produced more stable average performance.
-
-Increasing iterations does not guarantee better solutions.
-
-Parameter tuning alone cannot eliminate early stagnation.
-
-Exploration increases variability across runs.
-
-
-
-
-Full paper available in this repository.
