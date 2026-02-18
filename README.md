@@ -15,13 +15,18 @@ Balanced configurations
 
 Increased iteration strategies
 
-📊 Datasets Used
+
+
+Datasets Used:
 
 berlin52
 
 ch130
 
 kroA100
+
+
+
 
 
 Key Findings:
@@ -33,5 +38,8 @@ Increasing iterations does not guarantee better solutions.
 Parameter tuning alone cannot eliminate early stagnation.
 
 Exploration increases variability across runs.
+
+
+
 
 Full paper available in this repository.
